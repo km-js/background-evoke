@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CCCCCC;
+    min-height: 100vh;
+}
+
+.image-box{
+    width: 60%;
+    margin: auto;
+    line-height: 0;
+    background: url(./images/background.png);
+    overflow: hidden;
+    position: relative;
+}
+
+.image-wrap{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 20px;
+}
+
+span{
+    width: 1px;
+    height: 100%;
+    cursor: ew-resize;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 20px;
+}
+
+.arrow{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+
+}
